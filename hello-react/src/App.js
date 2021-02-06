@@ -1,8 +1,12 @@
-import React from 'react';
-import MyComponent from './MyComponent';
+import React, { Component } from 'react';
+import ValidationSample from './ValidationSample';
 
-const App = () => {
-  return <MyComponent>리액트</MyComponent>;
-};
+class App extends Component {
+  render() {
+    return (
+      <ValidationSample/>
+    );
+  }
+}
 
 export default App;
